@@ -30,6 +30,25 @@ fi
 echo "Welcome, $@"
 ```
 
+### Тест
+
+После написания скрипта я попробовал несколько имен в консоли:
+
+```
+> bash script.bash
+Welcome
+```
+
+```
+> bash script.bash Боб
+Welcome, Боб
+```
+
+```
+> bash script.bash Benedict Timothy Carlton Cumberbatch
+Welcome, Benedict Timothy Carlton Cumberbatch
+```
+
 ### Вывод
 
 Таким образом, я выполнил работу, создав скрипт, здоровающийся с пользователем.
